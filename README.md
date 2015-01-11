@@ -134,7 +134,6 @@ bin/admin.sh Account -account=sysadmin -pass=password -create
 
 cd $GTS_HOME && ant track
 cp build/track.war $CATALINA_HOME/webapps/.
-# (may need (re)start tomcat): $CATALINA_HOME/bin/startup.sh
 ```
 
 You can now test the site on http://localhost:8080/track/Track .
