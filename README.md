@@ -118,7 +118,7 @@ Finally, let's compile OpenGTS.
 cd $GTS_HOME
 ant all
 
-# If your password uses special characters, enclose it with quotes
+# If your password has special characters, enclose it with quotes
 bin/initdb.sh -rootUser=<rootUser> -rootPass=<rootPass>
 ```
 
