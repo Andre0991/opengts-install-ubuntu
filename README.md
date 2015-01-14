@@ -41,15 +41,6 @@ $CATALINA_HOME/bin/startup.sh
 echo "export CATALINA_HOME=/usr/local/apache-tomcat-${VER}" >> ~/.bashrc
 ```
 
-If the following folder points to itself, unlink it.o
-Verify whether $CATALINA_HOME has a folder apache-tomcat-${VER} that points to itself.
-```bash
-ls -l $CATALINA_HOME
-```
-If it the recursive link exists, unlink to avoid problems on the OpenGTS compilation.
-```bash
-unlink /usr/local/apache-tomcat-${VER}/apache-tomcat-${VER}
-```
 
 ##### Java Connector
 Check the latest version at http://dev.mysql.com/downloads/connector/j/#downloads
@@ -112,6 +103,15 @@ sed -i "s/#db.sql.user=gts/db.sql.user=gts/" $GTS_HOME/config.conf
 sed -i "s/#db.sql.password=opengts/db.sql.password=opengts/" $GTS_HOME/config.conf
 ```
 
+If the following folder points to itself, unlink it.
+Verify whether $CATALINA_HOME has a folder apache-tomcat-${VER} that points to itself.
+```bash
+ls -l $CATALINA_HOME
+```
+If it the recursive link exists, unlink to avoid problems on the OpenGTS compilation.
+```bash
+unlink /usr/local/apache-tomcat-${VER}/apache-tomcat-${VER}
+```
 ##### Compilation & initialisation
 Finally, let's compile OpenGTS.
 ```bash
