@@ -158,6 +158,7 @@ Install Event Java Servlet and gprmc.
 cd $GTS_HOME && ant events
 cp -v build/events.war $CATALINA_HOME/webapps
 
+cd $GTS_HOME && ant gprmc
 cp build/gprmc.war $CATALINA_HOME/webapps/.
 ```
 
