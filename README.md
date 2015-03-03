@@ -199,8 +199,6 @@ I tested these procedures on two clean Ubuntu 14.04 installations, but if you ar
 
 ### To-do
 * Restart tomcat automatically on boot
-* http://opengts.sourceforge.net/FAQ.html#faq_htmlFrame
-* (maybe) edit tomcat-users.xml
 
 ### Credits
 Most of the instructions are based on the OpenGTS [official manual].
@@ -209,3 +207,6 @@ Copy and paste friendly style is inspirated from [opengts-server-install-step-by
 
 [official manual]:http://opengts.sourceforge.net/OpenGTS_Config.pdf
 [Android official client]:http://www.geotelematic.com/CelltracGTS/Free.html
+
+### License
+The content of this guide is available under the [ CC-BY ](http://creativecommons.org/licenses/by/3.0/legalcode) license.
