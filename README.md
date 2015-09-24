@@ -61,7 +61,7 @@ VER=1.5.2
 
 cd /tmp
 wget -c https://maven.java.net/content/repositories/releases/com/sun/mail/javax.mail/${VER}/javax.mail-${VER}.jar
-sudo cp javax.mail-${VER}.jar $JAVA_HOME/jre/lib/ext/.
+sudo cp javax.mail-${VER}.jar $JAVA_HOME/jre/lib/ext/
 sudo mv $JAVA_HOME/jre/lib/ext/javax.mail-${VER}.jar $JAVA_HOME/jre/lib/ext/javax.mail.jar
 ```
 
@@ -133,10 +133,10 @@ Add account, install Track Java Servlet
 bin/admin.sh Account -account=sysadmin -pass=password -create
 
 cd $GTS_HOME && ant track
-cp build/track.war $CATALINA_HOME/webapps/.
+cp build/track.war $CATALINA_HOME/webapps/
 ```
 
-You can now test the site on http://localhost:8080/track/Track .
+You can now test the site on http://localhost:8080/track/Track
 
 If it is not accessible, you may have to start (or restart) Tomcat.
 ```bash
@@ -146,7 +146,7 @@ ps -ef | grep tomcat
 # If it is running, execute the lines below.
 $CATALINA_HOME/bin/shutdown.sh
 rm -rf $CATALINA_HOME/webapps/track*
-cp $GTS_HOME/build/track.war $CATALINA_HOME/webapps/.
+cp $GTS_HOME/build/track.war $CATALINA_HOME/webapps/
 $CATALINA_HOME/bin/startup.sh
 
 # Else
@@ -159,7 +159,7 @@ cd $GTS_HOME && ant events
 cp -v build/events.war $CATALINA_HOME/webapps
 
 cd $GTS_HOME && ant gprmc
-cp build/gprmc.war $CATALINA_HOME/webapps/.
+cp build/gprmc.war $CATALINA_HOME/webapps/
 ```
 
 Verify installation again:
