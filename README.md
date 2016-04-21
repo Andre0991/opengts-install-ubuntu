@@ -1,7 +1,7 @@
 ### About
 This is a guide for installing the Open GPS Tracking System on Ubuntu 14.04. I used Kubuntu 14.04 and Ubuntu Server 14.04 in my tests, but the installation is very likely to work fine on newer and (not too) older versions as well. Probably a few changes can make it work on Debian.
 
-Further configuration of Apache, Tomcat and security issues are beoynd the scope of this guide. My aim is to provide a functional OpenGTS system following the [official manual] procedures.
+Further configuration of Apache, Tomcat and security issues are beyond the scope of this guide. My aim is to provide a functional OpenGTS system following the [official manual] procedures.
 
 The text is copy-and-paste friendly. Whenever you see a `VER` variable, you are expected to visit the provided link and replace the current number by the most recent version of the package.
 
@@ -169,7 +169,7 @@ bin/checkInstall.sh
 
 
 ##### Client
-If OpenGPS installation was successfull, you may want to test it quickly by monitoring an Android mobile phone.
+If OpenGTS installation was successful, you may want to test it quickly by monitoring an Android mobile phone.
 
 1. [Download](https://play.google.com/store/apps/details?id=org.opengts.client.android.cgtsfre&hl=en) CelltracGTS, the [Android official client].
 2. Make sure that the server has the gprmc module and it is working:
@@ -203,7 +203,7 @@ I tested these procedures on two clean Ubuntu 14.04 installations, but if you ar
 ### Credits
 Most of the instructions are based on the OpenGTS [official manual].
 
-Copy and paste friendly style is inspirated from [opengts-server-install-step-by-step.org](https://github.com/troywill/opengts-android/blob/master/opengts-server-install-step-by-step.org) (for Arch Linux).
+Copy and paste friendly style is inspired from [opengts-server-install-step-by-step.org](https://github.com/troywill/opengts-android/blob/master/opengts-server-install-step-by-step.org) (for Arch Linux).
 
 [official manual]:http://opengts.sourceforge.net/OpenGTS_Config.pdf
 [Android official client]:http://www.geotelematic.com/CelltracGTS/Free.html
