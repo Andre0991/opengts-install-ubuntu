@@ -1,5 +1,5 @@
 ### About
-This is a guide to install the Open GPS Tracking System on Ubuntu 14.04. I used Kubuntu 14.04 and Ubuntu Server 14.04 in my tests, but the installation is very likely to work fine on newer and (not too) older versions as well. Probably a few changes can make it work on Debian.
+This is a guide for installing the Open GPS Tracking System on Ubuntu 14.04. I used Kubuntu 14.04 and Ubuntu Server 14.04 in my tests, but the installation is very likely to work fine on newer and (not too) older versions as well. Probably a few changes can make it work on Debian.
 
 Further configuration of Apache, Tomcat and security issues are beoynd the scope of this guide. My aim is to provide a functional OpenGTS system following the [official manual] procedures.
 
