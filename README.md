@@ -122,7 +122,7 @@ ant all
 bin/initdb.sh -rootUser=<rootUser> -rootPass=<rootPass>
 ```
 
-Check whether everthing's correct.
+Check whether everything's correct.
 
 ```bash
 cd $GTS_HOME && bin/checkInstall.sh
@@ -169,7 +169,7 @@ bin/checkInstall.sh
 
 
 ##### Client
-If OpenGTS installation was successful, you may want to test it quickly by monitoring an Android mobile phone.
+If the installation was successful, you may want to test it quickly by monitoring an Android mobile phone.
 
 1. [Download](https://play.google.com/store/apps/details?id=org.opengts.client.android.cgtsfre&hl=en) CelltracGTS, the [Android official client].
 2. Make sure that the server has the gprmc module and it is working:
